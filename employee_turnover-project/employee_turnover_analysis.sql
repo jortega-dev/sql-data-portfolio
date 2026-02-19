@@ -41,6 +41,16 @@ INSERT INTO employee_performance VALUES
     SELECT employee_name, shift, turnover_risk, job_satisfaction, overtime_hours_12mon
     FROM employee_performance
     WHERE shift = 'night' AND turnover_risk = 'high';
+    
+    SELECT employee_name, trainining_level, promotion_path, turnover_risk
+    FROM employee_performance
+    WHERE trainining_level = 'low' OR promotion_path = 'none';
+    
+    SELECT employee_name, shift, recognition_12mon, bonus_last_12mon, turnover_risk
+    FROM employee_performance 
+    WHERE turnover_risk = 'high'
+    AND recognition_12mon = 0
+    AND bonus_last_12mon = 0;
 
     
     
