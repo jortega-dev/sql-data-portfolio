@@ -1,30 +1,23 @@
-# Employee_turover-project
-
-## Overview
-
-The goal of the project is to figure out why the organization has a high turn over of employee and what factors contribute to this issue, by executing
-sql commands we are going to have a clear and better idea of what is going on with the organization.
-
-## Objective
-
-Find possible solutions and recommendations to address this problem so the Company can retain talent and attract more potential employees.
-
-## Tools Used
-
-SQL (mysql) and workbench were used for this project. Please note that all the data in this project is simulated for the purpose of learning SQL and Data Analysis.
-
 ## Key Findings
 
 Night shift concentration of high-risk employees (fatigue, schedule strain).
-Low training and no clear promotion path strongly overlaps with high risk.
-Zero recognition and zero bonus correlates with low satisfaction and high risk.
-High overtimes appears with higher risk (burnout).
+
+Low training + no clear promotion path strongly overlaps with high risk.
+
+Zero recognition and zero bonus correlates with low satisfaction + high risk.
+
+High overtime appears with higher risk (burnout).
 
 ## Practical Solutions
 
-Shift differentai pay.
-Better training for new and existing employees.
-Promotion path clarity.
-Recognition system.
-Overtime control.
-Bonus fairness.
+Night shift retention plan: shift differential pay, predictable schedules, rotate weekends, extra break policy.
+
+Training ramp for new hires (first 90 days): structured onboarding + skill checkpoints (reduce early exits).
+
+Promotion path clarity: define requirements for Level 1 → Level 2 → Lead; publish timeline + skills matrix.
+
+Recognition system: monthly recognition tied to safety/quality output; supervisors required to log recognitions.
+
+Overtime control: cap overtime; cross-train to reduce reliance on a few employees.
+
+Bonus fairness: transparent rules (attendance + quality + training completion), paid quarterly.
