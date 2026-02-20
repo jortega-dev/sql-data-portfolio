@@ -51,6 +51,17 @@ INSERT INTO employee_performance VALUES
     WHERE turnover_risk = 'high'
     AND recognition_12mon = 0
     AND bonus_last_12mon = 0;
+    
+    SELECT employee_name shift, overtime_hours_12mon, job_satisfaction, turnover_risk
+    FROM employee_performance
+    WHERE turnover_risk = 'high'
+    AND overtime_hours_12mon >= 160;
+    
+    SELECT employee_name, performance_rating, overtime_hours_12mon, shift, turnover_risk
+    FROM employee_performance 
+    WHERE performance_rating >= 4 AND turnover_risk <> 'low';
+    
+
 
     
     
